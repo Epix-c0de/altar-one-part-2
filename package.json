@@ -8,6 +8,11 @@
     "start-web-dev": "DEBUG=expo* bunx rork start -p tlya0addym6ge9jmb733i --web --tunnel",
     "lint": "expo lint"
   },
+  "overrides": {
+    "lucide-react-native": {
+      "react": "$react"
+    }
+  },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
     "@nkzw/create-context-hook": "^1.1.0",
